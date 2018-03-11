@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.missyouamy.MainActivity">
+
+    <ImageView
+        android:id="@+id/party_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/snowman" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="3"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:padding="70dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="I Miss You\nAmy!\nHurry Home" />
+
+</RelativeLayout>
